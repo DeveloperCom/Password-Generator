@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Password Generator</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+
+</head>
+<body>
+    <header>
+        <nav>
+                <a id="logo-link" href="index.html">
+                    <img src="https://ps.w.org/strong-password-generator-wp/assets/icon-256x256.png?rev=2543977" alt="Logo" height="50">
+                </a>
+                <a href="index.html" id="logo-text-link"><h1>Password Generator</h1></a>
+                <a class="nav-link-text" href="index.html">Home</a>
+                <a class="nav-link-text" href="#about-us"> About Us</a>
+                <a class="nav-link-text" href="#contuct-us"> Contuct Us</a>
+                <a class="nav-link-text" href="#"> Privacy Policy</a>
+        </nav>
+    </header>
+
+    <main>
+        <div id="mainDiv">
+            <div id="main-level1"> 
+                <label for="inNum" id="label-inNum">Password Size :</label>
+                <input id="inNum" type="number" placeholder="Enter Size" required>
+                <button id="generate" onclick="main()">Generate</button>
+            </div>
+            <div class="checkbox-level">
+                <input type="checkbox" id="char" checked>
+                <label for="char">Character</label>
+                <input type="checkbox" id="upperCase" checked>
+                <label for="upperCase">Upper Case</label>
+            </div>
+            <div class="checkbox-level">
+                <input type="checkbox" id="num" checked>
+                <label for="num">Number</label>
+                <input type="checkbox" id="lowerCase" checked>
+                <label for="lowerCase">Lower Case</label>
+            </div>
+            <div class="output">
+                <div class="output-sub-div">
+                    <div id="op">Get Your Strong Password </div>
+                    <div id="op-copy">
+                        <button class="copy-btn" onclick="copyfn()">
+                            <i class="fa-sharp fa-regular fa-copy copy-btn"> </i>
+                             </button>
+                    </div>
+                    <span ><b id="pop"></b></span>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div id="about-us">
+        <div class="about-design">
+                <p>About Me</p>
+        </div>
+        <div class="about-div">
+            <p>Hi, I'm Ayan Biswas, a student of B.Tech CSE at JISCE and a full stack web developer. I'm passionate about creating beautiful and functional websites using modern technologies and frameworks.</p>
+            <p>I have experience in developing web applications using HTML, CSS, JavaScript, React, tailwind css, Next.js, Node and Express. I'm also familiar with tools like Git, GitHub, and MongoDB. I'm always eager to learn new skills and explore new challenges.</p>
+            <p>My goal is to become a professional web developer and work on exciting and impactful projects. I'm always open to new opportunities and collaborations. If you want to know more about me or my work, feel free to contact me.</p>
+        </div>
+        <div class="about-img">
+            <img src="about-us-img.jpg" alt="">
+        </div>
+    </div>
+    <div id="contuct-us">
+        <div class="contuct-design">
+                <p>Contuct</p>
+        </div>
+        <div class="contuct-div">
+            <p>I can help you create a stunning and functional website for your business. Whether you need a landing page, an e-commerce site, or a blog, we have the skills and experience to make it happen.</p>
+            <p>We'd love to hear from you and discuss your ideas, goals, and needs. You can contact us by phone, email, or using the form below. We'll get back to you as soon as possible and provide you with a free quote and a timeline.</p>
+            <p>Don't miss this opportunity to take your business to the next level. Contact us today and let's get started on your project.</p>
+            <p><b>Phone: +91 9883382543</b></p>
+            <p><b>Email: ayanbiswas9191@gmail.com</b></p>
+        </div>
+    </div>
+    <footer>
+        <div class="footer-div">
+            <div>&copy;Password Generator</div>
+            <div class="footer-link">
+                <a href="index.html">Home</a>
+                <a href="#about-us">About Us</a>
+                <a href="#contuct-us">Contuct Us</a>
+            </div>
+        </div>
+    </footer>
+    <script src="script.js"></script>
+</body>
+</html>

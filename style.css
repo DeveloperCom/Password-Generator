@@ -1,0 +1,351 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+:root{
+    --black:black;
+    --light-blue:rgb(208, 236, 236);
+    --white:white;
+}
+
+
+/* header start */
+header{
+    position: sticky;
+    top: 0;
+ }
+nav{
+    background-color: azure;
+    height: 70px;
+    overflow: hidden;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+}
+.nav-link-text{
+    text-decoration: none;
+    padding: 25.8px 25px;
+    font-size: large;
+}
+.nav-link-text:link{
+    color: var(--black);
+}
+.nav-link-text:visited{
+    color: var(--black);
+}
+.nav-link-text:hover{
+    background-color: var(--light-blue);
+    font-weight: 600;
+}
+#logo-link{
+    margin-right: 100px;
+    margin-left: 50px;
+}
+#logo-text-link{
+    color: var(--black);
+    text-decoration: none;
+    margin-right: 100px;
+    font-size: larger;
+}
+#logo-text-link:visited{
+    color:var(--black)
+}
+/* end header */
+
+
+/* main content start*/
+#main-level1{
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+}
+#inNum{
+    height: 40px;
+    width: 400px;
+    border-radius: 20px;
+    text-align: center;
+    font-size: large;
+}
+#label-inNum{
+    font-size: 20px;
+    padding-bottom: 10px;
+    padding-right: 5px;
+}
+#generate{
+    height: 40px;
+    width: 100px;
+    border-radius: 7px;
+    border: none;
+    margin-left: 5px;
+    background-color: rgb(162, 245, 245);
+    font-size: large;
+}
+#generate:hover{
+    background-color: aqua;
+    cursor: pointer;
+    color: rgb(0, 0, 0);
+}
+.checkbox-level{
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+    padding-top: 10px;
+    font-size: 17px;
+}
+input[type=checkbox]{
+    accent-color: rgb(250, 39, 39);
+    cursor: pointer;
+}
+.output{
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    height: 100px;
+}
+.output-sub-div{
+    color: black;
+    background-color: var(--light-blue);
+    border: 1.5px solid black;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    height: fit-content;
+    width: fit-content;
+}
+.copy-btn{
+    background-color: var(--light-blue);
+    padding: 2px;
+    border: none;
+}
+.copy-btn:hover {
+    background-color: aquamarine;
+    cursor: pointer;
+
+}
+.fa-sharp{
+    font-size: 30px;
+
+}
+
+
+/* end main content */
+
+
+/*about-us*/
+#about-us{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(228, 238, 248);
+    margin-top: 55vh;
+    padding-top: 10vh;
+}
+.about-design{
+    background-image: url(back.avif);
+    font-size: 10vmin;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100%;
+    width: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.about-div{
+    font-size: large;
+    line-height: 30px;
+    width: 80%;
+}
+
+.about-img img{
+    height: 300px;
+    border-radius:30000px;
+    
+}
+
+#contuct-us{
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background-color: rgb(228, 238, 248);
+    margin-top: 55vh;
+    padding-top: 10vh;
+}
+.contuct-design{
+    background-image: url(back.avif);
+    font-size: 10vmin;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    height: 100%;
+    width: 100%;
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.contuct-div{
+    font-size: large;
+    line-height: 30px;
+    padding: 0px 20px;
+}
+
+.footer-div{
+    background-color: black;
+    height: 70px;
+    color: var(--white);
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    margin-top: 45vh;
+}
+.footer-link{
+    display: flex;
+    gap: 20px;
+}
+.footer-link a{
+    color: var(--white);
+    text-decoration: none;
+}
+.footer-link a:visited{
+    color: var(--white);
+}
+.footer-link a:hover{
+    color: rgb(136, 148, 157);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media only screen and (max-width: 815px) {
+    *{
+        margin: 0px;
+        padding: 0;
+    }
+    header{
+        position: sticky;
+        top: 0;
+     }
+    nav{
+        background-color: azure;
+        height: 70px;
+        width: auto;
+        display: flex;
+        justify-content: start;
+        align-items: center;
+    }
+    .nav-link-text{
+        text-decoration: none;
+        padding: 25.8px 5px;
+        font-size: medium;
+    }
+    .nav-link-text:link{
+        color: black;
+    }
+    .nav-link-text:visited{
+        color: black;
+    }
+    .nav-link-text:hover{
+        background-color: rgb(208, 236, 236);
+        font-weight: 600;
+
+    }
+    #logo-link{
+        margin-right: 20px;
+        margin-left: 10px;
+    }
+    #logo-text-link{
+        display: none;
+    }
+    #main-level1{
+        height: 200px;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+    }
+    #inNum{
+        height: 25px;
+        width: 200px;
+        border-radius: 15px;
+        text-align: center;
+        font-size: small;
+    }
+    #label-inNum{
+        font-size: 15px;
+        padding-bottom: 5px;
+        padding-right: 0px;
+    }
+    #generate{
+        height: 25px;
+        width: 60px;
+        border-radius: 7px;
+        border: none;
+        margin-left: 5px;
+        background-color: rgb(162, 245, 245);
+        font-size: small;
+    }
+    #generate:hover{
+        background-color: aqua;
+        cursor: pointer;
+        color: rgb(0, 0, 0);
+    }
+    .checkbox-level{
+        display: flex;
+        justify-content: center;
+        gap: 6px;
+        padding-top: 10px;
+        font-size: 14px;
+    }
+    input[type=checkbox]{
+        accent-color: rgb(250, 39, 39);
+    }
+    .output{
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+        height: 100px;
+        margin: 0px 2px;
+        overflow:scroll
+    }
+    .output-sub-div{
+        color: black;
+        background-color: var(--light-blue);
+        border: 1.5px solid black;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        height: fit-content;
+        width: fit-content;
+    }
+    .copy-btn{
+        background-color: var(--light-blue);
+        padding: 2px;
+        border: none;
+    }
+    .copy-btn:hover{
+        background-color: aquamarine;
+        cursor: pointer;
+    }
+    .fa-sharp{
+        font-size: 20px;
+    
+    }
+    
+  }
