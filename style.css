@@ -63,6 +63,7 @@ nav{
 #inNum{
     height: 40px;
     width: 400px;
+    border:2px solid black;
     border-radius: 20px;
     text-align: center;
     font-size: large;
